@@ -142,6 +142,10 @@ img {
   z-index: 100;
 }
 
+.page-header ul{
+  list-style-type: none;
+}
+
 .page-header img{
   z-index: 100;
 }
@@ -152,6 +156,10 @@ img {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
+}
+
+.main-nav ul{
+  list-style-type: none;
 }
 
 .main-nav a {
@@ -187,23 +195,32 @@ img {
 
 /* Footer */
 
-.page-footer {
+.footer {
   clear: both;
   text-align: center;
-  height: 3em;
   width: 100%;
   left: 0px;
   bottom: 0px;
-  background-color: #02617f;
   text-align: center;
   font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+
   font-size: .75em;
   font-weight: normal;
   padding: .75em;
 }
   
-.page-footer p{
-  color: #fff;
+.footer ul{
+  list-style-type: none;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer p{
+  border: 1px #555;
   margin: 0;
 }
 
