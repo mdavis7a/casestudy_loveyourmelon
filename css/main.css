@@ -121,12 +121,19 @@ h2 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   margin: auto;
   letter-spacing: 1px;
-
 }
 
 img {
@@ -142,6 +149,19 @@ img {
   width: 100%;
   overflow: auto;
   z-index: 100;
+}
+
+.page-header p{
+  text-align: left;
+  color: #103355;
+  top: 0;
+  left:0;
+  width: 100%;
+  overflow: auto;
+  z-index: 100;
+  font-size: .85em;
+  padding: 0 1em;
+
 }
 
 .page-header ul{
@@ -183,9 +203,9 @@ img {
 /* Main */
 
 .main-nav {
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .main-nav ul{
@@ -207,7 +227,7 @@ img {
 }
 
 .main-nav a:hover {
-    color: #f6303e;
+  color: #f6303e;
 }
 
 /* Message */
@@ -240,11 +260,21 @@ img {
   color: #f6303e;
 }
 
+.page-section h5 {
+  text-align: center;
+  color: #555;
+  font-size: .7em;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-top: -1.5em;
+}
+
 .product {
   position: relative;
   width: 33%;
   float: left;
   padding: 1em;
+  text-align: center;
 }
 
 .clearfix a {
@@ -349,7 +379,12 @@ img {
 .footer a:hover {
     color: #f6303e;
 }
-   
+
+.email {
+  font-size: .9em;
+  color: #666;
+}
+
 /* Payment */
 
 .payment-methods {
